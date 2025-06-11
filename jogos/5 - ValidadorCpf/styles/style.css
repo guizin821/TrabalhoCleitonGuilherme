@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(0, 140, 255);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    background-color: rgb(31, 31, 31);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+    height: 2rem;
+}
+
+input{
+    height: 2rem;
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

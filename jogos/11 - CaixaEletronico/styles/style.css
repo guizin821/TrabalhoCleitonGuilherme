@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(0, 140, 255);
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-top: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input {
+  height: 2.5rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  height: 3rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 30px;
+  font-size: 30px;
+  color: white;
+}

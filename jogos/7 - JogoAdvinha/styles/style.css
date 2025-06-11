@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(0, 140, 255);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(31, 31, 31);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+input {
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#resultado, #tentativas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-top: 25px;
+}

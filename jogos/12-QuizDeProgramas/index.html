@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz de HTML e CSS</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1>Quiz de HTML e CSS</h1>
+
+    <form id="quizForm">
+      <div class="pergunta">
+        <p>1. Qual tag é usada para criar um link em HTML?</p>
+        <label><input type="radio" name="q1" value="a"> &lt;link&gt;</label><br>
+        <label><input type="radio" name="q1" value="b"> &lt;a&gt;</label><br>
+        <label><input type="radio" name="q1" value="c"> &lt;href&gt;</label>
+      </div>
+
+      <div class="pergunta">
+        <p>2. Qual propriedade CSS é usada para mudar a cor do texto?</p>
+        <label><input type="radio" name="q2" value="a"> background-color</label><br>
+        <label><input type="radio" name="q2" value="b"> font-style</label><br>
+        <label><input type="radio" name="q2" value="c"> color</label>
+      </div>
+
+      <div class="pergunta">
+        <p>3. Qual atributo HTML é usado para adicionar uma imagem?</p>
+        <label><input type="radio" name="q3" value="a"> src</label><br>
+        <label><input type="radio" name="q3" value="b"> alt</label><br>
+        <label><input type="radio" name="q3" value="c"> href</label>
+      </div>
+
+      <button type="button" class="btn" onclick="calcularPontuacao()">Enviar</button>
+    </form>
+
+    <p id="resultado"></p>
+  </main>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>

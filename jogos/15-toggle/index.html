@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mostrar/Ocultar Seções</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main>
+    <h1>Toggle de Seções</h1>
+
+    <div class="botoes">
+      <button class="btn" data-target="sobre">Sobre</button>
+      <button class="btn" data-target="servicos">Serviços</button>
+      <button class="btn" data-target="contato">Contato</button>
+    </div>
+
+    <section id="sobre" class="secao">
+      <h2>Sobre</h2>
+      <p>Somos uma empresa dedicada a criar soluções web modernas e responsivas.</p>
+    </section>
+
+    <section id="servicos" class="secao">
+      <h2>Serviços</h2>
+      <ul>
+        <li>Desenvolvimento Front-end</li>
+        <li>Desenvolvimento Back-end</li>
+        <li>Design de Interfaces</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="secao">
+      <h2>Contato</h2>
+      <p>Envie um e-mail para contato@exemplo.com ou ligue para (11) 1234-5678.</p>
+    </section>
+  </main>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>

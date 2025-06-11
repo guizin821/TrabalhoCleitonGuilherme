@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editor de Texto Simples</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <main>
+    <div id="botoes">
+      <button onclick="formatar('bold')"><b>B</b></button>
+      <button onclick="formatar('italic')"><i>I</i></button>
+      <button onclick="formatar('underline')"><u>U</u></button>
+    </div>
+    <div id="editor" contenteditable="true" spellcheck="false">
+      Digite seu texto aqui...
+    </div>
+  </main>
+  <script src="script/java.js"></script>
+</body>
+</html>

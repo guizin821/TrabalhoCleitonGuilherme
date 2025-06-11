@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contador Regressivo</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main>
+    <h1>Contador Regressivo</h1>
+
+    <div class="inputs">
+      <input type="number" id="minutos" placeholder="Minutos" min="0" />
+      <input type="number" id="segundos" placeholder="Segundos" min="0" max="59" />
+    </div>
+
+    <div id="display">00:00</div>
+
+    <div class="botoes">
+      <button class="btn" onclick="iniciar()">Iniciar</button>
+      <button class="btn" onclick="pausar()">Pausar</button>
+      <button class="btn" onclick="resetar()">Resetar</button>
+    </div>
+
+    <p id="mensagem"></p>
+  </main>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>

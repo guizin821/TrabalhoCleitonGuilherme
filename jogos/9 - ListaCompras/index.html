@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <form onsubmit="adicionarItem(); return false;">
+            <label for="item">Adicionar item:</label>
+            <input type="text" id="item" placeholder="Digite um item">
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <div id="lista">
+            <h2>Lista de Compras</h2>
+            <ul id="itens"></ul>
+        </div>
+    </main>
+
+    <script src="script/java.js"></script>
+</body>
+</html>

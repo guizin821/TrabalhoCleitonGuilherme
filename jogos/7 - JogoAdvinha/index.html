@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Adivinhação</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <label for="palpite">Digite um número de 1 a 100:</label>
+            <input type="number" id="palpite" min="1" max="100" placeholder="Seu palpite">
+            <button type="button" onclick="verificarPalpite()">Tentar</button>
+            <div id="resultado"></div>
+            <div id="tentativas"></div>
+        </form>
+    </main>
+    <script src="script/java.js"></script>
+</body>
+</html>

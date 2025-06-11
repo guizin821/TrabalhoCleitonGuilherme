@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galeria de Imagens</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main>
+    <h1>Galeria de Imagens</h1>
+
+    <div class="botoes">
+      <button class="btn" onclick="filtrarCategoria('todas')">Todas</button>
+      <button class="btn" onclick="filtrarCategoria('natureza')">Natureza</button>
+      <button class="btn" onclick="filtrarCategoria('tecnologia')">Tecnologia</button>
+      <button class="btn" onclick="filtrarCategoria('pessoas')">Pessoas</button>
+    </div>
+
+    <div id="galeria" class="galeria">
+      <!-- Imagens inseridas via JS -->
+    </div>
+  </main>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
